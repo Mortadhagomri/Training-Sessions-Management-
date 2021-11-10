@@ -1,0 +1,20 @@
+.headbar {
+  height: 8rem;
+  display: flex;
+  padding: 2rem 5rem;
+  justify-content: space-between;
+  z-index: 10;
+  &__logo {
+    color: var(--main-color);
+    background-color: #fff;
+    font-weight: bolder;
+  }
+
+  &__logout:visited,
+  &__logout:link {
+    text-decoration: none;
+    font-size: 1.7rem;
+    font-weight: 500;
+    color: var(--main-color);
+  }
+}
